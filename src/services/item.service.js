@@ -23,7 +23,7 @@ class ItemDataService {
         return http.delete(`/items/${id}`);
     }
 
-    findByUsername(username) {
+    findUsername(username) {
         return http.get(`/admin/items/user?username=${username}`);
     }
 
