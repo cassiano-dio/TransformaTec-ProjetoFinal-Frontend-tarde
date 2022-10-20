@@ -106,7 +106,7 @@ export default class AddItem extends Component {
                 ): (
                     <div>
                         <div className="form-group">
-                            <label htmlFor="todoId">Todo Id</label>
+                            <label htmlFor="todoId">Id do TODO</label>
                             <input 
                                 type="text"
                                 className="form-control"
@@ -117,7 +117,7 @@ export default class AddItem extends Component {
                             />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="symbol">Symbol</label>
+                            <label htmlFor="symbol">Símbolo</label>
                             <input 
                                 type="text"
                                 className="form-control"
@@ -128,7 +128,7 @@ export default class AddItem extends Component {
                             />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="name">Name</label>
+                            <label htmlFor="name">Nome do item</label>
                             <input 
                                 type="text"
                                 className="form-control"
@@ -149,6 +149,7 @@ export default class AddItem extends Component {
                                 name="username"
                             />
                         </div> */}
+                        <br />
                         <button onClick={this.saveItem} className="btn btn-success">
                             Registrar
                         </button>

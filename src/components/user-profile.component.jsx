@@ -3,13 +3,17 @@ import AuthService from "../services/auth.service";
 
 const Profile = () => {
 
+    const mainContainer = {
+        backgroundColor: 'cadetblue'
+    }
+
     const currentUser = AuthService.getCurrentUser();
 
     return (
-        <div className='container'>
+        <div className='container' style={mainContainer}>
             <header className='jumbotron'>
                 <h3>
-                    Perfil de usuário de {currentUser.username}
+                    Perfil de usuário de:  {currentUser.username}
                 </h3>
             </header>
             <p>

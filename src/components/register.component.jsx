@@ -141,7 +141,7 @@ const Register = (props) => {
                                 </div>
 
                                 <div className="form-group">
-                                    <label htmlFor="password">Password</label>
+                                    <label htmlFor="password">Senha</label>
                                     <Input
                                         type="password"
                                         className="form-control"
@@ -151,6 +151,7 @@ const Register = (props) => {
                                         validations={[required, validPassword]}
                                     />
                                 </div>
+                                <br />
                                 <div className="form-group">
                                     <button className="btn btn-primary btn-block">Cadastro</button>
                                 </div>
